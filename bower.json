@@ -1,0 +1,19 @@
+{
+  "name": "gulp-babel-boilerplate",
+  "version": "0.0.1",
+  "authors": [
+    "tsuyoshiwada"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "pixi.js": "^4.4.4"
+  }
+}
