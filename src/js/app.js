@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import Pixi from 'pixi.js';
+import {Kaleidoscope} from './Kaleidoscope';
 class App {
   constructor() {
   }
@@ -12,11 +13,12 @@ class App {
   initPixi = function() {
     console.log(this.width);
     console.log(this.height);
-    this.pixiApp = new PIXI.Application(this.width, this.height, {backgroundColor : 0x000000});
+    this.pixiApp = new PIXI.Application(this.width, this.height, {backgroundColor : 0xffffff});
     document.body.appendChild(this.pixiApp.view);
     this.pixiContainer = new PIXI.Container();
     window.onresize = this.pixiResize();
-    
+    this.kaleidoscope = new Kaleidoscope(this.pixiApp);
+    this.kaleidoscope.draw();
   }
   
   pixiResize = function() {
