@@ -1,5 +1,7 @@
-Experiments boilerplate based ond gulp & babel boilerplate
+Kaleidoscope experiment using Pixi.js
 ========================
+
+
 
 
 gulp & babel boilerplate
