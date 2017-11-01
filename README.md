@@ -1,7 +1,7 @@
 Kaleidoscope experiment using Pixi.js
 ========================
 
-
+![Kaleidoscope Pixi.js](https://imgur.com/a/IuGdd "Example Result")
 
 
 gulp & babel boilerplate
